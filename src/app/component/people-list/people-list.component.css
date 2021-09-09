@@ -1,0 +1,16 @@
+.people-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.people-list__item {
+  padding: 5px;
+}
+
+.people-list__item a {
+  color: #000;
+}
+
+.people-list__item a:hover {
+  text-decoration: none;
+}

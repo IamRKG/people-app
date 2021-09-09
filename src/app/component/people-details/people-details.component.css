@@ -1,0 +1,15 @@
+.list {
+  border: solid 1px #ccc;
+  width: 350px;
+  border-block-end: inherit;
+}
+.list div {
+  display: flex;
+  align-items: flex-start;
+  padding: 10px;
+  border-bottom: solid 1px #ccc;
+}
+
+.list div dt {
+  flex-basis: 80px;
+}

@@ -1,0 +1,3 @@
+<ul class="people-list">
+    <li class="people-list__item" *ngFor="let people of peoples?.results"><a href="javascript:void(0)" (click)=getPeopleItem(people.url)>{{people.name}}</a></li>
+</ul>
